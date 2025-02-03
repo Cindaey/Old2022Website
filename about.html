@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Cindy Dong &#10046; Website</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+        <script src="script.js"></script>
+        <style>
+            .image1{
+                max-width: 300px;
+                margin: 0 auto;
+                display: block;
+            }
+              @media screen and (min-width: 650px) {
+            #about{
+                display:grid;
+                grid-gap: 25px;
+                grid-template-columns: 1fr auto;
+            }
+        }
+        @media screen and (min-width: 980px) {
+            #about{
+                grid-template-columns: auto;
+            }
+            .image1{
+                max-width: 500px;
+            }
+        }
+        @media screen and (min-width: 1285px) {
+            .image1{
+                max-width: 400px;
+            }
+              @media screen and (min-width: 750px) {
+            #about{
+                display:grid;
+                grid-gap: 25px;
+                grid-template-columns: 1fr auto;
+            }
+        }
+        }
+        </style>
+    </head>
+    <body>
+        <header>
+            <a class="skip" href="#national">Skip to Content</a>
+            <button onclick="openNav()" class="menu">&#9776;</button>  
+             <div id="cindy">
+                <div id="logo_a"><a href="https://cdong23.github.io/index.html" tabindex="0"><img id="logo" src="website_asset/logo_small.png" alt="website logo"><h1>Cindy Dong</h1></a></div>
+        </div>   
+                <nav class="ham">
+                    <ul id="hamburger">
+                        <li><button aria-label="Close" class="closeBtn" id="closeBtn" onclick="closeNav()"><span>&times;</span></button></li>
+                        <li><a href="index.html" aria-current="false" onfocus="openNav()"><span>Home</span></a></li>
+                        <li><a class="year2022_large" href="https://cdong23.github.io/index.html#2022" onfocus="openNav()"><span>Web Design & Web Development</span></a></li>
+                        <li><a class="year2020_large" href="https://cdong23.github.io/index.html#2020" onfocus="openNav()"><span>Graphic Design</span></a></li>
+                        <li><a class="year2021_large" href="https://cdong23.github.io/index.html#2021" onfocus="openNav()"><span>Illustration and Animation</span></a></li>
+                        <li><a href="about.html" aria-current="page" onfocus="openNav()"><span>About Cindy</span></a></li>
+                        <li><a href="commission.html" aria-current="false" onfocus="openNav()"><span>Commission</span></a></li>
+                        <li><a href="contact.html" aria-current="false" onfocus="openNav()"><span>Contact</span></a></li>
+                        <li><a href="terms.html" aria-current="false" onfocus="openNav()" onblur="closeNav()"><span>Terms of Use/Permission</span></a></li>
+
+                </ul>
+                </nav>
+                <nav>
+                    <ul class="sidebar">
+                        <li><a href="index.html" aria-current="false"><span>Home</span></a></li>
+                        <li><a class="year2022_large" href="https://cdong23.github.io/index.html#2022"><span>Web Design & Web Development</span></a></li>
+                        <li><a class="year2020_large" href="https://cdong23.github.io/index.html#2020"><span>Graphic Design</span></a></li>
+                        <li><a class="year2021_large" href="https://cdong23.github.io/index.html#2021"><span>Illustration and Animation</span></a></li>                        <li><a href="about.html" aria-current="page"><span>About Cindy</span></a></li>
+                        <li><a href="commission.html" aria-current="false"><span>Commission</span></a></li>
+                        <li><a href="contact.html" aria-current="false"><span>Contact</span></a></li>
+                        <li><a href="terms.html" aria-current="false"><span>Terms of Use/Permission</span></a></li>
+
+                </ul>
+                </nav>
+            </header>
+        <main class="index" id="national">
+            <h2>About Cindy</h2>
+            <div id="about">
+            <div class="part">
+                <img class="image1" src="image/dong_c_14.0.png" alt="photo of seward park campus building covered by a transparent pink charrryblossom umbrella"> </div>
+            <div class="para">
+            <p>
+                Cindy is a freelance graphic designer and a illustrator who grew up in New York City, 
+                specifically in the lower Manhattan Chinatown area. She studied graphic design 
+                as a major and information science as a minor in SUNY Oswego.
+            </p>
+            <h3>Inspirations</h3>
+            <p>
+                From national parks to magical landscapes, Cindy's inspiration largely came from
+                places referencing to real life to a varying degree along with the generous usage of color value to
+                bring out the highlights of each of of her illustration work. The same applied to her design work.
+                Cindy's usual places of inspiration ranges from experiencing the smallest things in everyday life including
+                seeing, or listening to just about anything. This could be listening to a calm music composed by 
+                Peder B. Helland on a quiet evening, witnessing a beautiful vibrant scenery from the movie Weathering Away, 
+                seeing a nice photo from somewhere in the world, or just the smell of morning air nearby Lake Ontario. 
+                These things helped her focus on appreciating what is at present, which is the implicit
+                theme to many of her works. Cindy saw graphic design as an array of artforms consisting of different methodologies 
+                to express such themes. This included digital illustration, animation, web design, and many more. 
+            </p>
+            <h3>Resume</h3>
+            <div class="ytlink1"><a href="website_asset/pdf/cindydong_resume.pdf" target="_blank">View Cindy's resume PDF</a></div>
+        </div>
+    
+    </div>
+            <div class="top"><a href="#top">top</a></div>
+        </main>
+        <footer>
+            <p>All rights reserved &#169; 2022 Cindy Dong</p>
+        </footer>
+    </body>

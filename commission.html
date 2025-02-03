@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Cindy Dong &#10046; Website</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+        <script src="script.js"></script>
+        <style>
+            .message{
+                height:10rem;
+            }
+            input[type=submit]{
+                font-family: 'jost', sans-serif;
+            font-weight: 300;
+            color:#2C5D6D;
+            }
+            input[type=text], select, textarea {
+            font-family: 'jost', sans-serif;
+            font-weight: 300;
+            color:#2C5D6D;
+            width: 100%;
+            padding:0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            resize: vertical;
+            }
+            form{
+                padding-bottom: 3rem;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <a class="skip" href="#national">Skip to Content</a>
+            <button onclick="openNav()" class="menu">&#9776;</button>  
+             <div id="cindy">
+                <div id="logo_a"><a href="https://cdong23.github.io/index.html" tabindex="0"><img id="logo" src="website_asset/logo_small.png" alt="website logo"><h1>Cindy Dong</h1></a></div>
+        </div> 
+                <nav class="ham">
+                    <ul id="hamburger">
+                        <li><button aria-label="Close" class="closeBtn" id="closeBtn" onclick="closeNav()"><span>&times;</span></button></li>
+                        <li><a href="index.html" aria-current="false" onfocus="openNav()"><span>Home</span></a></li>
+                        <li><a class="year2022_large" href="https://cdong23.github.io/index.html#2022" onfocus="openNav()"><span>Web Design & Web Development</span></a></li>
+                        <li><a class="year2020_large" href="https://cdong23.github.io/index.html#2020" onfocus="openNav()"><span>Graphic Design</span></a></li>
+                        <li><a class="year2021_large" href="https://cdong23.github.io/index.html#2021" onfocus="openNav()"><span>Illustration and Animation</span></a></li>                        <li><a href="about.html" aria-current="false" onfocus="openNav()"><span>About Cindy</span></a></li>
+                        <li><a href="commission.html" aria-current="page" onfocus="openNav()"><span>Commission</span></a></li>
+                        <li><a href="contact.html" aria-current="false" onfocus="openNav()"><span>Contact</span></a></li>
+                        <li><a href="terms.html" aria-current="false" onfocus="openNav()" onblur="closeNav()"><span>Terms of Use/Permission</span></a></li>
+
+                </ul>
+                </nav>
+                <nav>
+                    <ul class="sidebar">
+                        <li><a href="index.html" aria-current="false"><span>Home</span></a></li>
+                        <li><a class="year2022_large" href="https://cdong23.github.io/index.html#2022"><span>Web Design & Web Development</span></a></li>
+                        <li><a class="year2020_large" href="https://cdong23.github.io/index.html#2020"><span>Graphic Design</span></a></li>
+                        <li><a class="year2021_large" href="https://cdong23.github.io/index.html#2021"><span>Illustration and Animation</span></a></li>                        <li><a href="about.html" aria-current="false"><span>About Cindy</span></a></li>
+                        <li><a href="commission.html" aria-current="page"><span>Commission</span></a></li>
+                        <li><a href="contact.html" aria-current="false"><span>Contact</span></a></li>
+                        <li><a href="terms.html" aria-current="false"><span>Terms of Use/Permission</span></a></li>
+
+                </ul>
+                </nav>
+            </header>
+            <main id="national">
+                <div class="projectintro" id="top">
+            <h2>Commission</h2>
+            <p>To get in contact with Cindy for commission related purposes, please contact her through gmail, instagram DM, Linkedin, or fill out the form below. She will respond as soon as she can.</p>
+        </div>
+        <h3>Reach Cindy Through:</h3>
+        <p>Email&colon; cindydong637@gmail.com</p>
+            <div class="ytlink1"><a href="mailto:cindydong637@gmail.com">Email</a>
+            <div class="ytlink1"><a href="https://www.instagram.com/cindddyy_y/">Instagram</a>
+            <div class="ytlink1"><a href="https://www.linkedin.com/in/cidong23/">LinkedIn</a> 
+        
+                <!-- modify this form HTML and place wherever you want your form -->
+<form
+action="https://formspree.io/f/xgednwok"
+method="POST"
+>
+
+    <h3>Or send a message directly to Cindy here:</h3>
+
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname" required>
+
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname" required><br>
+
+    <label for="email">Your Email:</label>
+  <input type="text" id="email" name="="email" required><br>
+
+    <label for="message">Your Message:</label>
+  <textarea name="message" class="message" required></textarea>
+
+<!-- your other form fields go here -->
+<div class="ytlink1">
+    <input type="submit" target="_blank" class="submit">
+</form>
+        <!--
+        <form method="post" action="contact.php">
+        <label>Name:</label>
+        <input name="sender">
+
+        <label>Email address:</label>
+        <input name="senderEmail">
+
+        <label>Message:</label>
+        <textarea rows="5" cols="20" name="message"></textarea>
+
+        <input type="submit" name="submit">
+    </form>
+-->
+        </main>
+                <div class="top"><a href="#top">top</a></div>
+                </main>
+                <footer>
+                    <p>All rights reserved &#169; 2022 Cindy Dong</p>
+                </footer>
+                </body>
